@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 65px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Georgia', serif;
+  color: #ff7b00;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+
+.bloco {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  gap: 20px;
+}
+
+.bloco img {
+  max-width: 40%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.bloco p {
+  flex: 1;
+  text-align: justify;
+}
+
+.imagem-esquerda {
+  flex-direction: row-reverse;
+}
+
+.imagem-direita {
+  flex-direction: row-reverse;
+}
