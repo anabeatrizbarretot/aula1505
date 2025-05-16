@@ -42,7 +42,7 @@ h1 {
 }
 
 .imagem-esquerda {
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 .imagem-direita {
